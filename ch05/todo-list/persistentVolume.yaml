@@ -9,3 +9,11 @@ spec:
     - ReadWriteOnce
   local:
     path: /media/smitstore
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+          - key: kiamol
+            operator: In
+            values:
+              - ch05
