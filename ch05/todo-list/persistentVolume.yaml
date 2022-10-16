@@ -8,12 +8,4 @@ spec:
   accessModes:
     - ReadWriteOnce
   local:
-    path: /volumes/pv01 
-  nodeAffinity:
-    required:
-      nodeSelectorTerms:
-        - matchExpressions:
-          - key: kiamol
-            operator: In
-            values:
-              - ch05
+    path: /media/smitstore
