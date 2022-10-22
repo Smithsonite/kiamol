@@ -8,5 +8,5 @@ spec:
   accessModes:
     - ReadWriteOnce
   nfs:
-    server: nfs.my.network
-    path: "/kubernetes-volumes"
+    server: smitstore.smithsonite.home
+    path: "/media/smitstore/storage/kubernetes-volumes"
