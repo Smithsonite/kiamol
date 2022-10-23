@@ -7,7 +7,7 @@ spec:
   capacity:
     storage: 50Mi
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   nfs:
     server: smitstore.smithsonite.home
     path: "/media/smitstore/storage/kubernetes-volumes"
