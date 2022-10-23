@@ -8,7 +8,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   local:
-    path: /media/smitstore
+    path: /volumes/pv01 
   nodeAffinity:
     required:
       nodeSelectorTerms:
