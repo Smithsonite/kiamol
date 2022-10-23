@@ -34,6 +34,7 @@ spec:
               mountPath: "/secrets"
             - name: data
               mountPath: /var/lib/postgresql/data
+              subPath: data
       volumes:
         - name: secret
           secret:
