@@ -3,6 +3,7 @@ kind: PersistentVolume
 metadata:
   name: pv01
 spec:
+  storageClassName: manual
   capacity:
     storage: 50Mi
   accessModes:
