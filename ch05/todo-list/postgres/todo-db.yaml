@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: db
-          image: postgres:11.6-alpine
+          image: postgres:11.17-alpine
           env:
           - name: POSTGRES_PASSWORD_FILE
             value: /secrets/postgres_password
