@@ -4,7 +4,7 @@ metadata:
   name: pv01
 spec:
   capacity:
-    storage: 50Mi
+    storage: 90Mi
   accessModes:
     - ReadWriteOnce
   local:
