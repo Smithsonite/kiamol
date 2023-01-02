@@ -10,6 +10,8 @@ spec:
       targetPort: 80
   selector:
     app: todo-proxy-lab
+  externalIPs:
+    - 192.168.1.235
   type: LoadBalancer
 ---
 apiVersion: v1
